@@ -1,12 +1,31 @@
-# React + Vite
+# Mental Health Companion
+### This is part of our final year project
+The Mental Health Companion App is an application designed to help individuals manage their mental health.<br>
+The app provides a range of tools to help users talk to a chatbot. It has a questionnaire that is desgined to <br>
+detect the most probable illness the user might be suffering from.<br>
+There is a compilation of resources to support the user's mental well-being.
+## Dependencies
+[![API - OPENAI](https://img.shields.io/badge/Node.js-%235174EA?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en/)<br>
+[![dependency - Node.js](https://img.shields.io/badge/openai-%23EA5178?style=for-the-badge&logo=OPENAI-API&logoColor=white)](//beta.openai.com/overview)<br>
+[![library - React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/) <br>
+[![styling - CSS](https://img.shields.io/badge/CSS3-%23D8F32E?style=for-the-badge&logo=css3&logoColor=white)](https://web.dev/learn/css/)<br>
+[![language - Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Deployment
+To start a react app
+```bash
+npx create-react-app .
+```
+-This installs all the necessary node modules as well, then ->
+```bash
+npm i react-multi-carousel
+```
+-If cloned from git
+```bash
+npm i
+```
+```bash
+npm i react-multi-carousel
+```
+***** Not responsive
+***** Runs on OpenAi api trial version and might not respond after the api exhaustion limit
